@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    margin: 15px;
+    text-decoration: none;
+}
+
+
+.glyphicon{
+    color: black;
+}
+
+.links{
+    color: black;
+}
+
+.links:hover{
+    color: black;
+}
+
+.centerpage{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gumbici{
+    display: flex;
+}
+
+.trazilica{
+    margin: 20px;
+}
+
+.gumb{
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.gumb:hover{
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+
+
+#button{
+    background-color: #41a8f0;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#button:hover{
+    background-color: #77b9e7;
+}
+
+.trazilica input[type=text]{
+     float: right;
+     padding: 6px;
+     border: 1px  solid black;
+     margin-top: 8px;
+     margin-right: 16px;
+     font-size: 17px;
+     width: 550px;
+     border-radius: 20px;
+}
+
+.bar:hover{
+    background-color: #e7e7e7
+}
+
+
+.footer{
+    background-color: #e7e7e7;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
